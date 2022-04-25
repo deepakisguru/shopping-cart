@@ -2,37 +2,206 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header1 {
+  min-height: 50px;
+  /* padding: 0px 100px;  */
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.08);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.header2 {
+  min-height: 40px;
+  /* padding: 0px 100px;  */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+}
+
+.itemCount {
+  border-radius: 50px;
+  background-color: #FF3535;
+  position: absolute;
+  color: #fff;
+  font-size: 9px;
+  padding: 4px 5px;
+  margin: 10px 0px 0px -15px;
+}
+
+.tabs {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  color: #101418;
+  text-transform: uppercase;
+}
+
+.heading {
+  font-family: Abhaya Libre;
+  font-weight: 700;
+  font-size: 48px;
+  color: #101418;
+}
+
+.tableHeader {
+  font-family: Abhaya Libre;
+  font-weight: 700;
+  font-size: 14px;
+  color: #101418;
+  margin: 0px
+}
+
+.cartTotalBox {
+  background-color: #F0F9F4;
+  /* margin-left: 30px; */
+}
+
+.cartTotal {
+  font-family: Abhaya Libre;
+  font-weight: 700;
+  font-size: 20px;
+  color: #101418;
+}
+
+.cartText {
+  font-family: Abhaya Libre;
+  font-weight: 500;
+  font-size: 14px;
+  color: #222222;
+  margin: 8px 0px;
+}
+
+.totalAmount {
+  font-family: Abhaya Libre;
+  font-weight: 700;
+  font-size: 14px;
+  color: #007E3D;
+  margin: 8px 0px;
+}
+
+.cartTotalText {
+  font-family: Abhaya Libre;
+  font-weight: 700;
+  font-size: 14px;
+  color: #222222;
+  margin: 8px 0px;
+}
+
+.buyButton {
+  width: 100%;
+  background-color: #007E3D !important;
+  margin: 20px 0px !important;
+  height: 50px !important;
+  color: #fff !important;
+  font-family: Roboto;
+  font-size: 24px !important;
+  text-transform: capitalize !important;
+}
+
+.itemPrice {
+  font-family: Abhaya Libre;
+  font-weight: 700;
+  font-size: 14px;
+  color: #101418;
+}
+
+.footerBox {
+  background-color: black;
+  margin-top: 100px; 
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+
+.brandName {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 36px;
+  color: #fff;
+}
+
+.information {
+  font-family: Abhaya Libre;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 12px 0px;
+}
+
+a {
+  font-family: Abhaya Libre;
+  color: #CDCDCD;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.email {
+  font-family: Roboto;
+  color: #CDCDCD;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.newsletter {
+  font-family: Abhaya Libre;
+  color: #CDCDCD;
+  font-size: 14px;
+}
+
+.emailInput {
+  background-color: #fff;
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #D8D8D8;
+  padding: 8px 0px 8px 8px;
+  height: 30px;
+  color: #969696;
+  font-size: 12px;
+  font-family: Abhaya Libre;
+  font-weight: 500;
+}
+
+.subsribeButton {
+  width: 50%;
+  background-color: #007E3D !important;
+  margin: 20px 0px !important;
+  height: 30px !important;
+  color: #fff !important;
+  font-family: Abhaya Libre;
+  font-size: 12px !important;
+  text-transform: uppercase !important;
+}
+
+.copyrightText {
+  font-family: Abhaya Libre;
+  font-weight: 500;
+  font-size: 14px;
+  color: #CDCDCD;
+  margin: 8px 0px;
+}
+
+.iconButton {
+  color: #CCCCCC;
+}
+
+.itemName {
+  padding-left: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .itemImage {
+    width: 80px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .qtyBox {
+    max-width: 90px;
   }
-  to {
-    transform: rotate(360deg);
+  .iconButton {
+    margin: 0px;
+    padding: 0px;
+    padding: 0px !important;
+  }
+  .itemName {
+    padding-left: 0px !important;
+  }
+  .cartTotalBox {
+    margin-top: 20px;
   }
 }
